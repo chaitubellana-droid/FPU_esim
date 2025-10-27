@@ -5,7 +5,7 @@
   * [Reference Circuit Waveform](#reference-circuit-waveform)
    - [Simulation in esim](#simulation-in-esim)
   * [Schematic](#schematic)
-  * [Parameters set for Voltage Source for Input A](#parameters-set-for-voltage-source-for-input-a)
+  * [Parameters set for clk](#parameters-set-for-clk)
   * [Parameters set for Voltage Source for Input B](#parameters-set-for-voltage-source-for-input-b)
   * [Transient Settings](#transient-settings)
   * [Netlist](#netlist)
@@ -32,3 +32,8 @@ Internal Blocks and Data FlowThe circuit operates in several key stages, typical
 ![](esim_pics/ref4.png)
 # Simulation in esim
 ## Schematic
+![](esim_pics/fpu.png)
+
+
+![total schematic](esim_pics/schematic.png)
+## Parameters set for clk
