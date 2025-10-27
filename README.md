@@ -10,6 +10,8 @@
   * [Transient Settings](#transient-settings)
   * [Netlist](#netlist)
   * [Waveform](#waveform)
+  * [Conclusion](#conclusion)
+  * [References](#references)
 ## Abstract
 Floating point numbers are used in many applications such as telecommunications, medical imagining, radar, etc. In top-down design approach, four arithmetic modules, addition, subtraction, multiplication and division are combined to form a floating point ALU unit. Each module is independent to each other. In this paper, the implementation of a floating point ALU is designed and simulated. This paper presents the design of a single precision floating point arithmetic logic unit. The operations are performed on 32-bit operands. The algorithms of addition, subtraction, division and multiplication are modeled in Verilog HDL using ModelSim and an efficient algorithm for addition and subtraction module is developed in order to reduce the no. of gates used. The RTL code is synthesized using Synopsys RTL complier for 180nm TSMC technology with proper constraints.
 ## Reference Circuit Diagram
@@ -62,4 +64,12 @@ Internal Blocks and Data FlowThe circuit operates in several key stages, typical
 ![](esim_pics/fpu_div.png)
 ![](esim_pics/spice_div.png)
 
+### RESULT WAVEFORM
+![](esim_pics/waveform.png)
+
 ## Netlist
+
+## Conclusion
+"Project complete: A 32-bit single-precision (IEEE 754) Floating Point Unit is now fully designed and verified. I simulated the FPU's core operations (addition, subtraction, multiplication, and division) within the eSim environment. The simulation results have been successfully validated against expected outcomes, confirming functional correctness."
+## References
+
