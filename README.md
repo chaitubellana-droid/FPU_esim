@@ -48,12 +48,18 @@ Internal Blocks and Data FlowThe circuit operates in several key stages, typical
 ## Waveform
 ### floating point additon
 ![](esim_pics/fpu_add.png)
+![](esim_pics/spice_add.png)
 
 ### floating point subtraction
 ![](esim_pics/fpu_sub.png)
+![](esim_pics/spice_sub.png)
 
 ### floating point multiplication
 ![](esim_pics/fpu_mul.png)
+![](esim_pics/spice_mul.png)
 
 ### floating point division
 ![](esim_pics/fpu_div.png)
+![](esim_pics/spice_div.png)
+
+## Netlist
