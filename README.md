@@ -6,7 +6,7 @@
    - [Simulation in esim](#simulation-in-esim)
   * [Schematic](#schematic)
   * [Parameters set for clk](#parameters-set-for-clk)
-  * [Parameters set for Voltage Source for Input B](#parameters-set-for-voltage-source-for-input-b)
+  * [Parameters set for rst](#parameters-set-for-rst)
   * [Transient Settings](#transient-settings)
   * [Netlist](#netlist)
   * [Waveform](#waveform)
@@ -37,3 +37,23 @@ Internal Blocks and Data FlowThe circuit operates in several key stages, typical
 
 ![total schematic](esim_pics/schematic.png)
 ## Parameters set for clk
+![](esim_pics/clk_para.png)
+
+## Parameters set for rst
+![](esim_pics/rst.param.png)
+
+## Transient Settings
+![](esim_pics/tran.png)
+
+## Waveform
+### floating point additon
+![](esim_pics/fpu_add.png)
+
+### floating point subtraction
+![](esim_pics/fpu_sub.png)
+
+### floating point multiplication
+![](esim_pics/fpu_mul.png)
+
+### floating point division
+![](esim_pics/fpu_div.png)
